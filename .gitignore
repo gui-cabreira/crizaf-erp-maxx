@@ -1,0 +1,15 @@
+# Ignorar pasta de referência pesada e arquivos temporários
+referencia/
+
+# Arquivos de sistema
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+
+# Arquivos compactados grandes (caso apareçam fora de referencia)
+*.rar
+*.zip
+*.7z
