@@ -1,0 +1,8 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_departamento,1,bigint,YES,NULL,19,0,0
+nm_departamento,2,nvarchar,YES,-1,NULL,NULL,0
+cd_centro_custo,3,bigint,YES,NULL,19,0,0
+cd_funcionario_chefe,4,bigint,YES,NULL,19,0,0
+cd_departamento_sup,5,bigint,YES,NULL,19,0,0
+ds_departamento,6,nvarchar,YES,-1,NULL,NULL,0

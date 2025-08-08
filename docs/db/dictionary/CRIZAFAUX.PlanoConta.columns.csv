@@ -1,0 +1,11 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+descricao,2,nvarchar,YES,500,NULL,NULL,0
+classe,3,nvarchar,YES,500,NULL,NULL,0
+subClasse,4,nvarchar,YES,500,NULL,NULL,0
+conta,5,nvarchar,YES,500,NULL,NULL,0
+isRecuperaImposto,6,bit,YES,NULL,NULL,NULL,0
+topId,7,bigint,YES,NULL,19,0,0
+contaReduzContabil,8,bigint,YES,NULL,19,0,0
+contaAnalContabil,9,nvarchar,YES,500,NULL,NULL,0

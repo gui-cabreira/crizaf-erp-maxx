@@ -1,0 +1,13 @@
+TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,CONSTRAINT_NAME,FK_NAME
+------------,----------,-----------,----------------,---------,-----------,------------------------,-----------------,-------------,---------------,-------
+CRIZAFAUX,Hist_Preco_Processo,id_hist_preco_proces,1,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,Hist_Preco_Processo,dt_cadastro,2,datetime2,YES,NULL,NULL,NULL,NULL,NULL
+CRIZAFAUX,Hist_Preco_Processo,cd_processo,3,nvarchar,YES,-1,NULL,NULL,NULL,NULL
+CRIZAFAUX,Hist_Preco_Processo,cd_fase,4,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,Hist_Preco_Processo,vl_fase,5,decimal,YES,NULL,38,19,NULL,NULL
+CRIZAFAUX,Hist_Preco_Processo,pc_atualizacao,6,decimal,YES,NULL,38,19,NULL,NULL
+CRIZAFAUX,Hist_Preco_Processo,cd_fornecedor,7,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,Hist_Preco_Processo,cd_atividade,8,nvarchar,YES,-1,NULL,NULL,NULL,NULL
+CRIZAFAUX,Hist_Preco_Processo,ds_atualizacao,9,nvarchar,YES,-1,NULL,NULL,NULL,NULL
+CRIZAFAUX,Hist_Preco_Processo,cd_unidade_valor,10,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,Hist_Preco_Processo,vl_operacao_liquido,11,decimal,YES,NULL,38,19,NULL,NULL

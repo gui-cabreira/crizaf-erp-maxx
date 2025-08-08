@@ -1,0 +1,14 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+ic_imprimir,2,bit,YES,NULL,NULL,NULL,0
+cd_tipo_ligacao,3,bigint,YES,NULL,19,0,0
+cd_ligacao,4,bigint,YES,NULL,19,0,0
+cd_ligacao_item,5,bigint,YES,NULL,19,0,0
+cd_ligacao_sub_item,6,bigint,YES,NULL,19,0,0
+nm_ligacao,7,nvarchar,YES,-1,NULL,NULL,0
+nm_documento,8,nvarchar,YES,-1,NULL,NULL,0
+nm_titulo,9,nvarchar,YES,-1,NULL,NULL,0
+cd_mime,10,nvarchar,YES,-1,NULL,NULL,0
+cd_icone,11,bigint,YES,NULL,19,0,0
+nm_caminho,12,nvarchar,YES,-1,NULL,NULL,0

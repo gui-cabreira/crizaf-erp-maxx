@@ -1,0 +1,11 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,int,YES,NULL,10,0,0
+cd_cliente,2,int,YES,NULL,10,0,0
+cd_grupo_estoque,3,int,YES,NULL,10,0,0
+cd_tipo_estoque,4,int,YES,NULL,10,0,0
+cd_produto,5,nvarchar,YES,500,NULL,NULL,0
+vl_dim01,6,nvarchar,YES,500,NULL,NULL,0
+vl_dim02,7,nvarchar,YES,500,NULL,NULL,0
+vl_dim03,8,nvarchar,YES,500,NULL,NULL,0
+cd_produto_cliente,9,nvarchar,YES,500,NULL,NULL,0

@@ -1,0 +1,11 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_TipoEntidade,1,bigint,YES,NULL,19,0,0
+cd_Entidade,2,bigint,YES,NULL,19,0,0
+pc_Pis,3,decimal,YES,NULL,38,19,0
+pc_Cofins,4,decimal,YES,NULL,38,19,0
+pc_Icms,5,decimal,YES,NULL,38,19,0
+pc_DespFinanc,6,decimal,YES,NULL,38,19,0
+pc_Frete,7,decimal,YES,NULL,38,19,0
+pc_Lucro,8,decimal,YES,NULL,38,19,0
+pc_Outros,9,decimal,YES,NULL,38,19,0

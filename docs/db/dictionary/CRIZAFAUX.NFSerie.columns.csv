@@ -1,0 +1,8 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,int,YES,NULL,10,0,0
+cd_empresa,2,bigint,YES,NULL,19,0,0
+cd_serie,3,bigint,YES,NULL,19,0,0
+nm_serie,4,nvarchar,YES,500,NULL,NULL,0
+cd_proximo_numero,5,bigint,YES,NULL,19,0,0
+cd_indice,6,bigint,YES,NULL,19,0,0

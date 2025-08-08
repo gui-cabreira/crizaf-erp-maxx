@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_empresa,1,bigint,YES,NULL,19,0,0
+cd_serie_nf,2,bigint,YES,NULL,19,0,0
+cd_nota_fiscal,3,bigint,YES,NULL,19,0,0
+vl_ordem,4,bigint,YES,NULL,19,0,0
+nDi,5,nvarchar,YES,500,NULL,NULL,0
+dDi,6,datetime2,YES,NULL,NULL,NULL,0
+xLocDesemb,7,nvarchar,YES,500,NULL,NULL,0
+UFDesemb,8,nvarchar,YES,500,NULL,NULL,0
+dDesemb,9,datetime2,YES,NULL,NULL,NULL,0
+tpViaTransp,10,bigint,YES,NULL,19,0,0
+vafrmm,11,float,YES,NULL,53,NULL,0
+tpIntermedio,12,bigint,YES,NULL,19,0,0
+cnpj,13,nvarchar,YES,500,NULL,NULL,0
+UFTerceiro,14,nvarchar,YES,500,NULL,NULL,0
+cExportador,15,nvarchar,YES,500,NULL,NULL,0

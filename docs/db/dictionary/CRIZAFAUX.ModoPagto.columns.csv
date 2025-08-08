@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_modo_pgto,1,int,YES,NULL,10,0,0
+nm_sigla,2,nvarchar,YES,500,NULL,NULL,0
+cd_conta,3,bigint,YES,NULL,19,0,0
+ds_modo_pgto,4,nvarchar,YES,500,NULL,NULL,0
+cd_meio_pgto_nf,5,bigint,YES,NULL,19,0,0
+vl_taxa,6,float,YES,NULL,53,NULL,0
+nm_taxa,7,nvarchar,YES,500,NULL,NULL,0
+cd_conta_taxa,8,bigint,YES,NULL,19,0,0
+cd_tipo_taxa,9,nvarchar,YES,500,NULL,NULL,0
+nm_dias_compensacao,10,nvarchar,YES,500,NULL,NULL,0
+ic_gera_boleto_NF,11,bit,YES,NULL,NULL,NULL,0
+cd_banco,12,bigint,YES,NULL,19,0,0
+cd_convenio,13,bigint,YES,NULL,19,0,0
+cd_regra,14,bigint,YES,NULL,19,0,0
+ic_envia_boleto_NF,15,bit,YES,NULL,NULL,NULL,0

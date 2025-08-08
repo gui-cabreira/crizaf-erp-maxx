@@ -1,0 +1,6 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+nm_grupo,1,nvarchar,YES,500,NULL,NULL,0
+nm_parametro,2,nvarchar,YES,500,NULL,NULL,0
+vl_parametro,3,int,YES,NULL,10,0,0
+ds_parametro,4,nvarchar,YES,500,NULL,NULL,0

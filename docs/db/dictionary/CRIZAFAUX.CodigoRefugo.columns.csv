@@ -1,0 +1,6 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_refugo,1,bigint,YES,NULL,19,0,0
+nm_refugo,2,nvarchar,YES,-1,NULL,NULL,0
+nm_grupo01,3,nvarchar,YES,-1,NULL,NULL,0
+nm_grupo02,4,nvarchar,YES,-1,NULL,NULL,0

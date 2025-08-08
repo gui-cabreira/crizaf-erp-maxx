@@ -1,0 +1,16 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_ficha_exp,1,bigint,YES,NULL,19,0,0
+cd_ficha_exp_item,2,bigint,YES,NULL,19,0,0
+cd_seq,3,bigint,YES,NULL,19,0,0
+cd_prod_fat,4,nvarchar,YES,-1,NULL,NULL,0
+ds_prod_fat,5,nvarchar,YES,-1,NULL,NULL,0
+ncm,6,nvarchar,YES,-1,NULL,NULL,0
+qd_unitaria,7,float,YES,NULL,53,NULL,0
+cd_tipo_uni_pc_vl,8,bigint,YES,NULL,19,0,0
+vl_unit,9,float,YES,NULL,53,NULL,0
+nm_sigla_faturamento,10,nvarchar,YES,-1,NULL,NULL,0
+cd_imposto_fat,11,bigint,YES,NULL,19,0,0
+cd_conta_contabil,12,bigint,YES,NULL,19,0,0
+nm_contrato,13,nvarchar,YES,-1,NULL,NULL,0
+nm_item_contrato,14,bigint,YES,NULL,19,0,0

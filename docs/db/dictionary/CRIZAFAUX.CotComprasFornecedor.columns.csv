@@ -1,0 +1,14 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+ic_fechado,2,bit,YES,NULL,NULL,NULL,0
+cd_cot_compras,3,bigint,YES,NULL,19,0,0
+cd_empresa,4,bigint,YES,NULL,19,0,0
+cd_fornecedor,5,bigint,YES,NULL,19,0,0
+cd_contato,6,bigint,YES,NULL,19,0,0
+dt_resposta,7,datetime2,YES,NULL,NULL,NULL,0
+cd_status,8,bigint,YES,NULL,19,0,0
+nm_fornecedor,9,nvarchar,YES,-1,NULL,NULL,0
+nm_contato,10,nvarchar,YES,-1,NULL,NULL,0
+nm_comentario,11,nvarchar,YES,-1,NULL,NULL,0
+nm_email,12,nvarchar,YES,-1,NULL,NULL,0

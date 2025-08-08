@@ -1,0 +1,9 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+dt_cadastro,2,datetime2,YES,NULL,NULL,NULL,0
+cd_departamento,3,bigint,YES,NULL,19,0,0
+nm_arquivo,4,nvarchar,YES,-1,NULL,NULL,0
+cd_versao,5,bigint,YES,NULL,19,0,0
+nm_titulo,6,nvarchar,YES,-1,NULL,NULL,0
+ds_arquivo,7,nvarchar,YES,-1,NULL,NULL,0

@@ -1,0 +1,11 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+dt_vencimento,1,datetime2,YES,NULL,NULL,NULL,0
+cd_tipo_lancamento,2,bigint,YES,NULL,19,0,0
+nm_razao_social,3,nvarchar,YES,-1,NULL,NULL,0
+nm_cnpj,4,nvarchar,YES,-1,NULL,NULL,0
+nm_doc,5,nvarchar,YES,-1,NULL,NULL,0
+id_titulo,6,bigint,YES,NULL,19,0,0
+vl_receber,7,float,YES,NULL,53,NULL,0
+vl_pagar,8,float,YES,NULL,53,NULL,0
+cd_empresa,9,bigint,YES,NULL,19,0,0

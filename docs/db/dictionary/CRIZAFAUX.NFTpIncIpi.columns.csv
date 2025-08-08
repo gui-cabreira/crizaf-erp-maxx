@@ -1,0 +1,5 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+nm_incidencia,2,nvarchar,YES,500,NULL,NULL,0
+ds_incidencia,3,nvarchar,YES,500,NULL,NULL,0

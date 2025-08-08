@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,int,YES,NULL,10,0,0
+dt_calculo,2,datetime2,YES,NULL,NULL,NULL,0
+dt_periodo,3,datetime2,YES,NULL,NULL,NULL,0
+cd_fornecedor,4,int,YES,NULL,10,0,0
+nm_fornecedor,5,nvarchar,YES,500,NULL,NULL,0
+nm_certificacao,6,nvarchar,YES,500,NULL,NULL,0
+dt_validade_cert,7,datetime2,YES,NULL,NULL,NULL,0
+vl_certificacao,8,float,YES,NULL,53,NULL,0
+vl_qualidade,9,float,YES,NULL,53,NULL,0
+vl_pontualidade,10,float,YES,NULL,53,NULL,0
+vl_iqf,11,float,YES,NULL,53,NULL,0
+nm_iqf,12,nvarchar,YES,500,NULL,NULL,0
+ic_qualificado,13,bit,YES,NULL,NULL,NULL,0
+vl_aud_int,14,float,YES,NULL,53,NULL,0
+vl_eventos,15,float,YES,NULL,53,NULL,0

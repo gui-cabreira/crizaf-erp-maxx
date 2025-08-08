@@ -1,0 +1,12 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+dt_despessa,1,datetime2,YES,NULL,NULL,NULL,0
+cd_centro_custo,2,bigint,YES,NULL,19,0,0
+nm_entidade,3,nvarchar,YES,-1,NULL,NULL,0
+nm_tipo_despesa,4,nvarchar,YES,-1,NULL,NULL,0
+nm_documento,5,nvarchar,YES,-1,NULL,NULL,0
+vl_total,6,float,YES,NULL,53,NULL,0
+vl_recebido,7,float,YES,NULL,53,NULL,0
+nm_despesa,8,nvarchar,YES,-1,NULL,NULL,0
+ds_despesa,9,nvarchar,YES,-1,NULL,NULL,0
+id,10,bigint,YES,NULL,19,0,0

@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+cd_status,2,bigint,YES,NULL,19,0,0
+cd_solic_cotacao,3,bigint,YES,NULL,19,0,0
+cd_origem,4,bigint,YES,NULL,19,0,0
+dt_solic_cotacao,5,datetime2,YES,NULL,NULL,NULL,0
+dt_cotacao,6,datetime2,YES,NULL,NULL,NULL,0
+dt_envio,7,datetime2,YES,NULL,NULL,NULL,0
+dt_resposta,8,datetime2,YES,NULL,NULL,NULL,0
+cd_entidade,9,bigint,YES,NULL,19,0,0
+cd_tipo_entidade,10,bigint,YES,NULL,19,0,0
+cd_contato,11,bigint,YES,NULL,19,0,0
+nm_email_envio,12,nvarchar,YES,-1,NULL,NULL,0
+cd_cond_pgto,13,bigint,YES,NULL,19,0,0
+nm_comentario,14,nvarchar,YES,-1,NULL,NULL,0
+nm_com_interno,15,varbinary,YES,-1,NULL,NULL,0

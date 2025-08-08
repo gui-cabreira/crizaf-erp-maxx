@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_ano,1,bigint,YES,NULL,19,0,0
+cd_centro_custos,2,bigint,YES,NULL,19,0,0
+vl_janeiro,3,float,YES,NULL,53,NULL,0
+vl_fevereiro,4,float,YES,NULL,53,NULL,0
+vl_marco,5,float,YES,NULL,53,NULL,0
+vl_abril,6,float,YES,NULL,53,NULL,0
+vl_maio,7,float,YES,NULL,53,NULL,0
+vl_junho,8,float,YES,NULL,53,NULL,0
+vl_julho,9,float,YES,NULL,53,NULL,0
+vl_agosto,10,float,YES,NULL,53,NULL,0
+vl_setembro,11,float,YES,NULL,53,NULL,0
+vl_outubro,12,float,YES,NULL,53,NULL,0
+vl_novembro,13,float,YES,NULL,53,NULL,0
+vl_dezembro,14,float,YES,NULL,53,NULL,0
+vl_projeto,15,float,YES,NULL,53,NULL,0

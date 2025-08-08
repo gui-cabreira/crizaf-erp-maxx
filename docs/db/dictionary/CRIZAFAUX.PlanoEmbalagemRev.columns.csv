@@ -1,0 +1,8 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,int,YES,NULL,10,0,0
+id_plano,2,bigint,YES,NULL,19,0,0
+dt_revisao,3,datetime2,YES,NULL,NULL,NULL,0
+vl_revisao,4,bigint,YES,NULL,19,0,0
+cd_funcionario,5,bigint,YES,NULL,19,0,0
+ds_revisao,6,varbinary,YES,-1,NULL,NULL,0

@@ -1,0 +1,12 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_frete,1,bigint,YES,NULL,19,0,0
+cd_transportadora,2,bigint,YES,NULL,19,0,0
+cd_tipo_transporte,3,bigint,YES,NULL,19,0,0
+cd_tipo_expedicao,4,bigint,YES,NULL,19,0,0
+dt_inicio_frete,5,datetime2,YES,NULL,NULL,NULL,0
+dt_termino_frete,6,datetime2,YES,NULL,NULL,NULL,0
+qt_preco_frete,7,decimal,YES,NULL,38,19,0
+cd_departamento,8,bigint,YES,NULL,19,0,0
+qt_kilometragem,9,decimal,YES,NULL,38,19,0
+ds_frete,10,nvarchar,YES,-1,NULL,NULL,0

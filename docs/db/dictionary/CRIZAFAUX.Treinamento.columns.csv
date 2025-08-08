@@ -1,0 +1,10 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_treinamento,1,bigint,YES,NULL,19,0,0
+nm_treinamento,2,nvarchar,YES,500,NULL,NULL,0
+ds_treinamento,3,nvarchar,YES,500,NULL,NULL,0
+cd_processo,4,nvarchar,YES,500,NULL,NULL,0
+cd_processo_fase,5,bigint,YES,NULL,19,0,0
+qt_meses_validade,6,bigint,YES,NULL,19,0,0
+cd_tipo_recurso,7,int,YES,NULL,10,0,0
+cd_recurso,8,int,YES,NULL,10,0,0

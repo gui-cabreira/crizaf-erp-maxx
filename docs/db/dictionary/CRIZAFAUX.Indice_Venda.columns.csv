@@ -1,0 +1,12 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+Familia,2,nvarchar,YES,-1,NULL,NULL,0
+SubFamilia,3,nvarchar,YES,-1,NULL,NULL,0
+pc_MateriaPrima,4,decimal,YES,NULL,38,19,0
+pc_Componente,5,decimal,YES,NULL,38,19,0
+pc_Fab_Interna,6,decimal,YES,NULL,38,19,0
+pc_Fab_Externa,7,decimal,YES,NULL,38,19,0
+pc_Estadual,8,decimal,YES,NULL,38,19,0
+pc_Interestadual,9,decimal,YES,NULL,38,19,0
+ic_calcula,10,bit,YES,NULL,NULL,NULL,0

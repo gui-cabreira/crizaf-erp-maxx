@@ -1,0 +1,16 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+cd_cfop_int,2,nvarchar,YES,-1,NULL,NULL,0
+cd_cfop,3,nvarchar,YES,-1,NULL,NULL,0
+ds_cfop,4,nvarchar,YES,-1,NULL,NULL,0
+ic_icms,5,bit,YES,NULL,NULL,NULL,0
+pc_base_calculo_icms,6,decimal,YES,NULL,38,19,0
+ic_ipi,7,bit,YES,NULL,NULL,NULL,0
+id_situacao_tribut,8,bigint,YES,NULL,19,0,0
+id_conta_contabil_cd,9,bigint,YES,NULL,19,0,0
+id_conta_contabil_db,10,bigint,YES,NULL,19,0,0
+id_conta_adm_cd,11,bigint,YES,NULL,19,0,0
+id_conta_adm_db,12,bigint,YES,NULL,19,0,0
+ic_gera_duplicata,13,bit,YES,NULL,NULL,NULL,0
+id_tipo_movimento,14,bigint,YES,NULL,19,0,0

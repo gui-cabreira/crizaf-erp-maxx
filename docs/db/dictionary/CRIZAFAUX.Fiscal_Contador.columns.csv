@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+nm_contador,2,nvarchar,YES,-1,NULL,NULL,0
+nm_cpf,3,nvarchar,YES,-1,NULL,NULL,0
+nm_crc,4,nvarchar,YES,-1,NULL,NULL,0
+nm_cnpj,5,nvarchar,YES,-1,NULL,NULL,0
+nm_cep,6,nvarchar,YES,-1,NULL,NULL,0
+nm_endereco,7,nvarchar,YES,-1,NULL,NULL,0
+nm_numero,8,nvarchar,YES,-1,NULL,NULL,0
+nm_complemento,9,nvarchar,YES,-1,NULL,NULL,0
+nm_bairro,10,nvarchar,YES,-1,NULL,NULL,0
+nm_fone,11,nvarchar,YES,-1,NULL,NULL,0
+nm_fax,12,nvarchar,YES,-1,NULL,NULL,0
+nm_email,13,nvarchar,YES,-1,NULL,NULL,0
+cd_codigo_municipio,14,bigint,YES,NULL,19,0,0
+cd_sociedade,15,bigint,YES,NULL,19,0,0

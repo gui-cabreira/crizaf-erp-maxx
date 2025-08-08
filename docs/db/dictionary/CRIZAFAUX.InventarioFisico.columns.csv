@@ -1,0 +1,9 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+codigoInventario,1,bigint,YES,NULL,19,0,0
+dataInventario,2,datetime2,YES,NULL,NULL,NULL,0
+nomeInventario,3,nvarchar,YES,-1,NULL,NULL,0
+descricaoInventario,4,nvarchar,YES,-1,NULL,NULL,0
+statusInventario,5,bigint,YES,NULL,19,0,0
+umaContagem,6,bit,YES,NULL,NULL,NULL,0
+icControlarFichas,7,bit,YES,NULL,NULL,NULL,0

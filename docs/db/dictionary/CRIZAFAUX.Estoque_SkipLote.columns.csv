@@ -1,0 +1,12 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+GROUPE,1,bigint,YES,NULL,19,0,0
+REFERENCE,2,nvarchar,YES,-1,NULL,NULL,0
+TYPE_ART,3,bigint,YES,NULL,19,0,0
+D1,4,float,YES,NULL,53,NULL,0
+D2,5,float,YES,NULL,53,NULL,0
+D3,6,float,YES,NULL,53,NULL,0
+CODE_CLIENT,7,bigint,YES,NULL,19,0,0
+cd_fornecedor,8,bigint,YES,NULL,19,0,0
+nm_rec_skip_lote,9,bigint,YES,NULL,19,0,0
+dt_recebimento,10,datetime2,YES,NULL,NULL,NULL,0

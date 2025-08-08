@@ -1,0 +1,16 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_idioma,1,bigint,YES,NULL,19,0,0
+cd_tipo_estoque,2,bigint,YES,NULL,19,0,0
+cd_produto,3,nvarchar,YES,-1,NULL,NULL,0
+cd_tipo_produto,4,bigint,YES,NULL,19,0,0
+vl_dim01,5,float,YES,NULL,53,NULL,0
+vl_dim02,6,float,YES,NULL,53,NULL,0
+vl_dim03,7,float,YES,NULL,53,NULL,0
+cd_entidade,8,bigint,YES,NULL,19,0,0
+ds_modelo_comercial,9,nvarchar,YES,-1,NULL,NULL,0
+ds_comercial,10,nvarchar,YES,-1,NULL,NULL,0
+ds_tecnica,11,nvarchar,YES,-1,NULL,NULL,0
+ds_materia_1,12,nvarchar,YES,-1,NULL,NULL,0
+ds_materia_2,13,nvarchar,YES,-1,NULL,NULL,0
+ds_materia_3,14,nvarchar,YES,-1,NULL,NULL,0

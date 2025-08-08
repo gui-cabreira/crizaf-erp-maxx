@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_versao,1,bigint,YES,NULL,19,0,0
+cd_ano,2,bigint,YES,NULL,19,0,0
+dt_cadastro,3,datetime2,YES,NULL,NULL,NULL,0
+vl_janeiro,4,float,YES,NULL,53,NULL,0
+vl_fevereiro,5,float,YES,NULL,53,NULL,0
+vl_marco,6,float,YES,NULL,53,NULL,0
+vl_abril,7,float,YES,NULL,53,NULL,0
+vl_maio,8,float,YES,NULL,53,NULL,0
+vl_junho,9,float,YES,NULL,53,NULL,0
+vl_julho,10,float,YES,NULL,53,NULL,0
+vl_agosto,11,float,YES,NULL,53,NULL,0
+vl_setembro,12,float,YES,NULL,53,NULL,0
+vl_outubro,13,float,YES,NULL,53,NULL,0
+vl_novembro,14,float,YES,NULL,53,NULL,0
+vl_dezembro,15,float,YES,NULL,53,NULL,0

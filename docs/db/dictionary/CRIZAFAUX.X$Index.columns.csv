@@ -1,0 +1,7 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+Xi$File,1,int,YES,NULL,10,0,0
+Xi$Field,2,int,YES,NULL,10,0,0
+Xi$Number,3,int,YES,NULL,10,0,0
+Xi$Part,4,int,YES,NULL,10,0,0
+Xi$Flags,5,int,YES,NULL,10,0,0

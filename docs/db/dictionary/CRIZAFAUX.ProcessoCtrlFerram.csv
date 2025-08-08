@@ -1,0 +1,9 @@
+TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,CONSTRAINT_NAME,FK_NAME
+------------,----------,-----------,----------------,---------,-----------,------------------------,-----------------,-------------,---------------,-------
+CRIZAFAUX,ProcessoCtrlFerram,id,1,int,YES,NULL,10,0,NULL,NULL
+CRIZAFAUX,ProcessoCtrlFerram,cd_proc_controle,2,nvarchar,YES,500,NULL,NULL,NULL,NULL
+CRIZAFAUX,ProcessoCtrlFerram,nm_fase,3,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,ProcessoCtrlFerram,cd_tipo,4,nvarchar,YES,500,NULL,NULL,NULL,NULL
+CRIZAFAUX,ProcessoCtrlFerram,cd_ferramenta,5,nvarchar,YES,500,NULL,NULL,NULL,NULL
+CRIZAFAUX,ProcessoCtrlFerram,ds_descricao,6,nvarchar,YES,500,NULL,NULL,NULL,NULL
+CRIZAFAUX,ProcessoCtrlFerram,vl_qde,7,bigint,YES,NULL,19,0,NULL,NULL

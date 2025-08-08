@@ -1,0 +1,10 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+Xe$Id,1,int,YES,NULL,10,0,0
+Xe$File,2,int,YES,NULL,10,0,0
+Xe$Name,3,nvarchar,YES,500,NULL,NULL,0
+Xe$DataType,4,nvarchar,YES,500,NULL,NULL,0
+Xe$Offset,5,int,YES,NULL,10,0,0
+Xe$Size,6,int,YES,NULL,10,0,0
+Xe$Dec,7,nvarchar,YES,500,NULL,NULL,0
+Xe$Flags,8,int,YES,NULL,10,0,0

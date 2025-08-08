@@ -1,0 +1,8 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,int,YES,NULL,10,0,0
+dt_log,2,datetime2,YES,NULL,NULL,NULL,0
+nm_usuario,3,nvarchar,YES,500,NULL,NULL,0
+nm_computador,4,nvarchar,YES,500,NULL,NULL,0
+ds_log,5,nvarchar,YES,500,NULL,NULL,0
+ds_parametros,6,nvarchar,YES,500,NULL,NULL,0

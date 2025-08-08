@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+dtApontamento,2,datetime2,YES,NULL,NULL,NULL,0
+cdTipoRecurso,3,bigint,YES,NULL,19,0,0
+cdRecurso,4,bigint,YES,NULL,19,0,0
+nmRecurso,5,nvarchar,YES,-1,NULL,NULL,0
+nmSetor,6,nvarchar,YES,-1,NULL,NULL,0
+nmPostoCarga,7,nvarchar,YES,-1,NULL,NULL,0
+cdCentroCustos,8,bigint,YES,NULL,19,0,0
+vlHorasDisponiveis,9,float,YES,NULL,53,NULL,0
+vlHorasParada,10,float,YES,NULL,53,NULL,0
+vlHorasProduzidas,11,float,YES,NULL,53,NULL,0
+vlHorasPrevistas,12,float,YES,NULL,53,NULL,0
+vlHorasRetrabalho,13,float,YES,NULL,53,NULL,0
+vlPecasProduzidas,14,bigint,YES,NULL,19,0,0
+vlPecasRuim,15,bigint,YES,NULL,19,0,0

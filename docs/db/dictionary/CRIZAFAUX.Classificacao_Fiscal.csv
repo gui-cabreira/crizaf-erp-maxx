@@ -1,0 +1,7 @@
+TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,CONSTRAINT_NAME,FK_NAME
+------------,----------,-----------,----------------,---------,-----------,------------------------,-----------------,-------------,---------------,-------
+CRIZAFAUX,Classificacao_Fiscal,id,1,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,Classificacao_Fiscal,cd_classificacao,2,nvarchar,YES,-1,NULL,NULL,NULL,NULL
+CRIZAFAUX,Classificacao_Fiscal,ds_classificacao,3,nvarchar,YES,-1,NULL,NULL,NULL,NULL
+CRIZAFAUX,Classificacao_Fiscal,pc_ipi,4,decimal,YES,NULL,38,19,NULL,NULL
+CRIZAFAUX,Classificacao_Fiscal,ic_utilizado,5,bit,YES,NULL,NULL,NULL,NULL,NULL

@@ -1,0 +1,4 @@
+TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,CONSTRAINT_NAME,FK_NAME
+------------,----------,-----------,----------------,---------,-----------,------------------------,-----------------,-------------,---------------,-------
+CRIZAFAUX,CatalogoCodigos,id,1,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,CatalogoCodigos,nm_catalogo,2,nvarchar,YES,-1,NULL,NULL,NULL,NULL

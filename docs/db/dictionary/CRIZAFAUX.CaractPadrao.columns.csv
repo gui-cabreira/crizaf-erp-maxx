@@ -1,0 +1,6 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_caracteristica,1,nvarchar,YES,-1,NULL,NULL,0
+vl_decimal,2,float,YES,NULL,53,NULL,0
+nm_caracteristica,3,nvarchar,YES,-1,NULL,NULL,0
+cd_tipo,4,bigint,YES,NULL,19,0,0

@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+cd_TipoPreco,2,bigint,YES,NULL,19,0,0
+dt_Cadastro,3,datetime2,YES,NULL,NULL,NULL,0
+cd_TipoEstoque,4,bigint,YES,NULL,19,0,0
+cd_TipoProduto,5,bigint,YES,NULL,19,0,0
+cd_Produto,6,nvarchar,YES,-1,NULL,NULL,0
+nm_Dim01,7,float,YES,NULL,53,NULL,0
+nm_Dim02,8,float,YES,NULL,53,NULL,0
+nm_Dim03,9,float,YES,NULL,53,NULL,0
+cd_Entidade,10,bigint,YES,NULL,19,0,0
+cd_UnidadeValor,11,bigint,YES,NULL,19,0,0
+cd_Fornecedor,12,bigint,YES,NULL,19,0,0
+vl_Produto,13,decimal,YES,NULL,38,19,0
+ds_AtualizacaoPreco,14,nvarchar,YES,-1,NULL,NULL,0
+pc_atualizacao,15,decimal,YES,NULL,38,19,0

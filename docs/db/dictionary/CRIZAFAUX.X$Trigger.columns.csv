@@ -1,0 +1,11 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+Xt$Name,1,nvarchar,YES,500,NULL,NULL,0
+Xt$Version,2,nvarchar,YES,500,NULL,NULL,0
+Xt$File,3,int,YES,NULL,10,0,0
+Xt$Event,4,nvarchar,YES,500,NULL,NULL,0
+Xt$ActionTime,5,nvarchar,YES,500,NULL,NULL,0
+Xt$ForEach,6,nvarchar,YES,500,NULL,NULL,0
+Xt$Order,7,int,YES,NULL,10,0,0
+Xt$Sequence,8,int,YES,NULL,10,0,0
+Xt$Misc,9,nvarchar,YES,500,NULL,NULL,0

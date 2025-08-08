@@ -1,0 +1,5 @@
+TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,CONSTRAINT_NAME,FK_NAME
+------------,----------,-----------,----------------,---------,-----------,------------------------,-----------------,-------------,---------------,-------
+CRIZAFAUX,ProcessoControleCom,cdProcessoControle,1,nvarchar,YES,500,NULL,NULL,NULL,NULL
+CRIZAFAUX,ProcessoControleCom,cdFase,2,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,ProcessoControleCom,comentario,3,nvarchar,YES,500,NULL,NULL,NULL,NULL

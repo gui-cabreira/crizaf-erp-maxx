@@ -1,0 +1,12 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_cliente,1,bigint,YES,NULL,19,0,0
+cd_tipo_estoque,2,bigint,YES,NULL,19,0,0
+cd_produto,3,nvarchar,YES,-1,NULL,NULL,0
+cd_tipo_produto,4,bigint,YES,NULL,19,0,0
+cd_entidade,5,bigint,YES,NULL,19,0,0
+vl_entrada,6,float,YES,NULL,53,NULL,0
+vl_saida,7,float,YES,NULL,53,NULL,0
+vl_lote,8,bigint,YES,NULL,19,0,0
+dt_movimento,9,datetime2,YES,NULL,NULL,NULL,0
+ds_movimento,10,nvarchar,YES,-1,NULL,NULL,0

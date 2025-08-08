@@ -1,0 +1,14 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_embalagem,1,nvarchar,YES,-1,NULL,NULL,0
+cd_container,2,nvarchar,YES,-1,NULL,NULL,0
+qt_pecas_container,3,bigint,YES,NULL,19,0,0
+qt_peso_embalagem,4,decimal,YES,NULL,38,19,0
+img_embalagem,5,varbinary,YES,-1,NULL,NULL,0
+ic_retornavel,6,bit,YES,NULL,NULL,NULL,0
+ic_pedido_compra,7,bit,YES,NULL,NULL,NULL,0
+vl_dim01,8,float,YES,NULL,53,NULL,0
+vl_dim02,9,float,YES,NULL,53,NULL,0
+vl_dim03,10,float,YES,NULL,53,NULL,0
+cd_tipo,11,bigint,YES,NULL,19,0,0
+cd_cliente,12,bigint,YES,NULL,19,0,0

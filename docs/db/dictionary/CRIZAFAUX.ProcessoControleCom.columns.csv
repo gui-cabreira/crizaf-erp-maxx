@@ -1,0 +1,5 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cdProcessoControle,1,nvarchar,YES,500,NULL,NULL,0
+cdFase,2,bigint,YES,NULL,19,0,0
+comentario,3,nvarchar,YES,500,NULL,NULL,0

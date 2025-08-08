@@ -1,0 +1,8 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+affaire,1,bigint,YES,NULL,19,0,0
+ofp,2,int,YES,NULL,10,0,0
+type_of_pie,3,nvarchar,YES,500,NULL,NULL,0
+ref_of_pie,4,nvarchar,YES,500,NULL,NULL,0
+id_of_pie,5,bigint,YES,NULL,19,0,0
+texto,6,nvarchar,YES,500,NULL,NULL,0

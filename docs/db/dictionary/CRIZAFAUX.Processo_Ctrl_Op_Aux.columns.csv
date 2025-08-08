@@ -1,0 +1,7 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+Reference_Gamme,1,nvarchar,YES,500,NULL,NULL,0
+Num_Phase,2,bigint,YES,NULL,19,0,0
+cd_tipo_medicao,3,bigint,YES,NULL,19,0,0
+cd_tipo_freq_proc,4,bit,YES,NULL,NULL,NULL,0
+cd_criticidade,5,bigint,YES,NULL,19,0,0

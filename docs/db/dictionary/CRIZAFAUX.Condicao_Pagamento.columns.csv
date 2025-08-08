@@ -1,0 +1,10 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+tp_carencia,2,bigint,YES,NULL,19,0,0
+tp_dia_semana,3,bigint,YES,NULL,19,0,0
+tp_dia_mes,4,bigint,YES,NULL,19,0,0
+ic_calculo_pedido,5,bit,YES,NULL,NULL,NULL,0
+tp_dia_mes_2,6,bigint,YES,NULL,19,0,0
+tp_dia_mes_3,7,bigint,YES,NULL,19,0,0
+tp_dia_mes_4,8,bigint,YES,NULL,19,0,0

@@ -1,0 +1,13 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id_hist_preco_proces,1,bigint,YES,NULL,19,0,0
+dt_cadastro,2,datetime2,YES,NULL,NULL,NULL,0
+cd_processo,3,nvarchar,YES,-1,NULL,NULL,0
+cd_fase,4,bigint,YES,NULL,19,0,0
+vl_fase,5,decimal,YES,NULL,38,19,0
+pc_atualizacao,6,decimal,YES,NULL,38,19,0
+cd_fornecedor,7,bigint,YES,NULL,19,0,0
+cd_atividade,8,nvarchar,YES,-1,NULL,NULL,0
+ds_atualizacao,9,nvarchar,YES,-1,NULL,NULL,0
+cd_unidade_valor,10,bigint,YES,NULL,19,0,0
+vl_operacao_liquido,11,decimal,YES,NULL,38,19,0

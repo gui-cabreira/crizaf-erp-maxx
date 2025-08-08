@@ -1,0 +1,12 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+id_catalogo,2,bigint,YES,NULL,19,0,0
+nm_externo,3,nvarchar,YES,-1,NULL,NULL,0
+tp_estoque,4,bigint,YES,NULL,19,0,0
+nm_produto,5,nvarchar,YES,-1,NULL,NULL,0
+tp_produto,6,bigint,YES,NULL,19,0,0
+vl_produto,7,float,YES,NULL,53,NULL,0
+vl_produto_desconto,8,float,YES,NULL,53,NULL,0
+vl_produto_dolar,9,float,YES,NULL,53,NULL,0
+vl_produto_dolar_des,10,float,YES,NULL,53,NULL,0

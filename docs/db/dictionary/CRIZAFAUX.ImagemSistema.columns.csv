@@ -1,0 +1,8 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+cd_origem,2,bigint,YES,NULL,19,0,0
+cd_codigo,3,bigint,YES,NULL,19,0,0
+cd_item,4,bigint,YES,NULL,19,0,0
+nm_codigo,5,nvarchar,YES,-1,NULL,NULL,0
+im_imagem,6,varbinary,YES,-1,NULL,NULL,0

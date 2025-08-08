@@ -1,0 +1,14 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,int,YES,NULL,10,0,0
+ic_fechado,2,bit,YES,NULL,NULL,NULL,0
+dt_fechamento,3,datetime2,YES,NULL,NULL,NULL,0
+nm_sala,4,nvarchar,YES,500,NULL,NULL,0
+cd_treinamento,5,int,YES,NULL,10,0,0
+vl_max_participantes,6,int,YES,NULL,10,0,0
+dt_inicio,7,datetime2,YES,NULL,NULL,NULL,0
+dt_termino,8,datetime2,YES,NULL,NULL,NULL,0
+vl_carga_horaria,9,float,YES,NULL,53,NULL,0
+nm_instituicao,10,nvarchar,YES,500,NULL,NULL,0
+nm_instrutor,11,nvarchar,YES,500,NULL,NULL,0
+nm_comentarios,12,nvarchar,YES,500,NULL,NULL,0

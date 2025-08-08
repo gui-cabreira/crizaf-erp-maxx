@@ -1,0 +1,16 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,int,YES,NULL,10,0,0
+id_integracao,2,nvarchar,YES,500,NULL,NULL,0
+cd_titulo,3,bigint,YES,NULL,19,0,0
+cd_notaFiscal,4,bigint,YES,NULL,19,0,0
+parcela,5,nvarchar,YES,500,NULL,NULL,0
+tp_ocorrencia,6,bigint,YES,NULL,19,0,0
+cd_entidade,7,bigint,YES,NULL,19,0,0
+nm_entidade,8,nvarchar,YES,500,NULL,NULL,0
+cd_banco,9,bigint,YES,NULL,19,0,0
+nm_banco,10,nvarchar,YES,500,NULL,NULL,0
+vl_titulo,11,float,YES,NULL,53,NULL,0
+vl_recebido,12,float,YES,NULL,53,NULL,0
+dt_recebimento,13,datetime2,YES,NULL,NULL,NULL,0
+dt_processamento,14,datetime2,YES,NULL,NULL,NULL,0

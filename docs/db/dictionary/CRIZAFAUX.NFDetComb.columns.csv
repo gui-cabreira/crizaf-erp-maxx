@@ -1,0 +1,14 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_empresa,1,bigint,YES,NULL,19,0,0
+cd_serie_nf,2,bigint,YES,NULL,19,0,0
+cd_nota_fiscal,3,bigint,YES,NULL,19,0,0
+vl_ordem,4,bigint,YES,NULL,19,0,0
+cProdANP,5,nvarchar,YES,500,NULL,NULL,0
+descANP,6,nvarchar,YES,500,NULL,NULL,0
+CODIF,7,nvarchar,YES,500,NULL,NULL,0
+qTemp,8,float,YES,NULL,53,NULL,0
+UFCons,9,nvarchar,YES,500,NULL,NULL,0
+qBCProd,10,float,YES,NULL,53,NULL,0
+vAliqProd,11,float,YES,NULL,53,NULL,0
+vCIDE,12,float,YES,NULL,53,NULL,0

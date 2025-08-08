@@ -1,0 +1,8 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,int,YES,NULL,10,0,0
+nm_tipo,2,nvarchar,YES,500,NULL,NULL,0
+ds_tipo,3,nvarchar,YES,500,NULL,NULL,0
+cd_Ligacao,4,int,YES,NULL,10,0,0
+ic_tabela_vendas,5,bit,YES,NULL,NULL,NULL,0
+cd_imposto,6,int,YES,NULL,10,0,0

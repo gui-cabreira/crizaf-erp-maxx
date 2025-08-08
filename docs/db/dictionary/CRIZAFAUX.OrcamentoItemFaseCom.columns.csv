@@ -1,0 +1,6 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_orcamento,1,int,YES,NULL,10,0,0
+cd_orcamento_item,2,int,YES,NULL,10,0,0
+cd_orc_item_fase,3,int,YES,NULL,10,0,0
+nm_instrucao,4,nvarchar,YES,-1,NULL,NULL,0

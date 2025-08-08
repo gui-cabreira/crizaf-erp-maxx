@@ -1,0 +1,11 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_centro_custo,1,bigint,YES,NULL,19,0,0
+nm_centro_custo,2,nvarchar,YES,-1,NULL,NULL,0
+ds_centro_custo,3,nvarchar,YES,-1,NULL,NULL,0
+pc_budge,4,float,YES,NULL,53,NULL,0
+ic_projeto,5,bit,YES,NULL,NULL,NULL,0
+vl_budge,6,float,YES,NULL,53,NULL,0
+cd_departamento,7,bigint,YES,NULL,19,0,0
+ic_ativo,8,bit,YES,NULL,NULL,NULL,0
+cd_codigo_externo,9,bigint,YES,NULL,19,0,0

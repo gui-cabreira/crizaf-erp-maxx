@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_servico,1,bigint,YES,NULL,19,0,0
+nm_grupo,2,nvarchar,YES,-1,NULL,NULL,0
+nm_servico,3,nvarchar,YES,-1,NULL,NULL,0
+ds_servico,4,nvarchar,YES,-1,NULL,NULL,0
+ic_roda,5,bit,YES,NULL,NULL,NULL,0
+nm_parametro01,6,nvarchar,YES,-1,NULL,NULL,0
+vl_parametro01,7,nvarchar,YES,-1,NULL,NULL,0
+nm_parametro02,8,nvarchar,YES,-1,NULL,NULL,0
+vl_parametro02,9,nvarchar,YES,-1,NULL,NULL,0
+nm_parametro03,10,nvarchar,YES,-1,NULL,NULL,0
+vl_parametro03,11,bigint,YES,NULL,19,0,0
+nm_parametro04,12,nvarchar,YES,-1,NULL,NULL,0
+vl_parametro04,13,float,YES,NULL,53,NULL,0
+dt_ocorrencia,14,datetime2,YES,NULL,NULL,NULL,0
+dt_termino,15,datetime2,YES,NULL,NULL,NULL,0

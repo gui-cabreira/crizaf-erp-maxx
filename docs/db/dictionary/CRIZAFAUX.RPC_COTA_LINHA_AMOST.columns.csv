@@ -1,0 +1,11 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+Num_rpc_cote,1,nvarchar,YES,500,NULL,NULL,0
+Num_Ligne,2,int,YES,NULL,10,0,0
+Num_Amostra,3,int,YES,NULL,10,0,0
+Cota,4,float,YES,NULL,53,NULL,0
+Tol_Min,5,float,YES,NULL,53,NULL,0
+Tol_Max,6,float,YES,NULL,53,NULL,0
+Encontrado,7,float,YES,NULL,53,NULL,0
+nm_processo_controle,8,nvarchar,YES,500,NULL,NULL,0
+dt_amostra,9,datetime2,YES,NULL,NULL,NULL,0

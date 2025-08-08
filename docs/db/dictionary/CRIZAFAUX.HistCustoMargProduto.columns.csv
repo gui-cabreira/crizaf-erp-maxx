@@ -1,0 +1,17 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+dt_calculo,2,datetime2,YES,NULL,NULL,NULL,0
+cd_cliente,3,bigint,YES,NULL,19,0,0
+nm_cliente,4,nvarchar,YES,-1,NULL,NULL,0
+nm_peca,5,nvarchar,YES,-1,NULL,NULL,0
+nm_peca_externo,6,nvarchar,YES,-1,NULL,NULL,0
+ds_peca,7,nvarchar,YES,-1,NULL,NULL,0
+vl_materia,8,float,YES,NULL,53,NULL,0
+vl_componente,9,float,YES,NULL,53,NULL,0
+vl_beneficiamento,10,float,YES,NULL,53,NULL,0
+vl_mao_obra,11,float,YES,NULL,53,NULL,0
+vl_venda_bruto,12,float,YES,NULL,53,NULL,0
+vl_venda_liquido,13,float,YES,NULL,53,NULL,0
+cd_grupo_estoque,14,bigint,YES,NULL,19,0,0
+cd_tipo_produto,15,bigint,YES,NULL,19,0,0

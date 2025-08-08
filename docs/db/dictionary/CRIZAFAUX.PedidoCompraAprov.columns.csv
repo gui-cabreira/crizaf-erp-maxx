@@ -1,0 +1,11 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,int,YES,NULL,10,0,0
+codigoPedidoCompra,2,int,YES,NULL,10,0,0
+codigoItem,3,int,YES,NULL,10,0,0
+dataAprovacao,4,datetime2,YES,NULL,NULL,NULL,0
+codigoFuncionario,5,int,YES,NULL,10,0,0
+nomeFuncionario,6,nvarchar,YES,500,NULL,NULL,0
+isAprovado,7,bit,YES,NULL,NULL,NULL,0
+isControler,8,bit,YES,NULL,NULL,NULL,0
+justificativa,9,nvarchar,YES,500,NULL,NULL,0

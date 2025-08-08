@@ -1,0 +1,13 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+id_AE2,2,bigint,YES,NULL,19,0,0
+seq01,3,nvarchar,YES,-1,NULL,NULL,0
+seq02,4,bigint,YES,NULL,19,0,0
+seq03,5,nvarchar,YES,-1,NULL,NULL,0
+seq04,6,datetime2,YES,NULL,NULL,NULL,0
+seq05,7,bigint,YES,NULL,19,0,0
+seq06,8,nvarchar,YES,-1,NULL,NULL,0
+seq07,9,nvarchar,YES,-1,NULL,NULL,0
+seq08,10,nvarchar,YES,-1,NULL,NULL,0
+seq09,11,datetime2,YES,NULL,NULL,NULL,0

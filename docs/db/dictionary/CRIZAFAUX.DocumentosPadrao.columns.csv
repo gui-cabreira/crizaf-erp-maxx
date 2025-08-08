@@ -1,0 +1,13 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+ic_nota_fiscal,2,bit,YES,NULL,NULL,NULL,0
+ic_pedido_venda,3,bit,YES,NULL,NULL,NULL,0
+ic_orcamento,4,bit,YES,NULL,NULL,NULL,0
+ic_pedido_compra,5,bit,YES,NULL,NULL,NULL,0
+ic_cotacao,6,bit,YES,NULL,NULL,NULL,0
+ic_pedido_benefic,7,bit,YES,NULL,NULL,NULL,0
+vl_revisao,8,bigint,YES,NULL,19,0,0
+dt_atualizacao,9,datetime2,YES,NULL,NULL,NULL,0
+nm_titulo,10,nvarchar,YES,-1,NULL,NULL,0
+nm_documento,11,varbinary,YES,-1,NULL,NULL,0

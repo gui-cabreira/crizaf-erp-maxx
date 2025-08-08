@@ -1,0 +1,13 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+idBordero,2,bigint,YES,NULL,19,0,0
+idTitulo,3,bigint,YES,NULL,19,0,0
+idBoleto,4,bigint,YES,NULL,19,0,0
+cdStatus,5,bigint,YES,NULL,19,0,0
+dtEmissao,6,datetime2,YES,NULL,NULL,NULL,0
+dtVencimento,7,datetime2,YES,NULL,NULL,NULL,0
+vlBoleto,8,float,YES,NULL,53,NULL,0
+nmIntegracao,9,nvarchar,YES,-1,NULL,NULL,0
+nmProtImpressao,10,nvarchar,YES,-1,NULL,NULL,0
+cdNossoNumero,11,bigint,YES,NULL,19,0,0

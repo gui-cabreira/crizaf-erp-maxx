@@ -1,0 +1,9 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+cd_tipo,2,bigint,YES,NULL,19,0,0
+cd_entidade,3,bigint,YES,NULL,19,0,0
+cd_documento,4,bigint,YES,NULL,19,0,0
+dt_emissao,5,datetime2,YES,NULL,NULL,NULL,0
+dt_validade,6,datetime2,YES,NULL,NULL,NULL,0
+nm_notas,7,nvarchar,YES,-1,NULL,NULL,0

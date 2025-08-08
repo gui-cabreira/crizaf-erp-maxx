@@ -1,0 +1,10 @@
+TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,CONSTRAINT_NAME,FK_NAME
+------------,----------,-----------,----------------,---------,-----------,------------------------,-----------------,-------------,---------------,-------
+CRIZAFAUX,CotCompras,id,1,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,CotCompras,ic_fechado,2,bit,YES,NULL,NULL,NULL,NULL,NULL
+CRIZAFAUX,CotCompras,cd_empresa,3,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,CotCompras,dt_cotacao,4,datetime2,YES,NULL,NULL,NULL,NULL,NULL
+CRIZAFAUX,CotCompras,cd_status,5,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,CotCompras,cd_funcionario,6,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,CotCompras,dt_resposta,7,datetime2,YES,NULL,NULL,NULL,NULL,NULL
+CRIZAFAUX,CotCompras,nm_comentario,8,nvarchar,YES,-1,NULL,NULL,NULL,NULL

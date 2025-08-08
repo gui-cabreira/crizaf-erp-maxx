@@ -1,0 +1,14 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+data,1,bigint,YES,NULL,19,0,0
+familia,2,nvarchar,YES,-1,NULL,NULL,0
+codigo,3,nvarchar,YES,-1,NULL,NULL,0
+d1,4,decimal,YES,NULL,38,19,0
+d2,5,decimal,YES,NULL,38,19,0
+d3,6,decimal,YES,NULL,38,19,0
+descricao,7,nvarchar,YES,-1,NULL,NULL,0
+qde,8,decimal,YES,NULL,38,19,0
+unidade,9,nvarchar,YES,-1,NULL,NULL,0
+preco_unitario,10,decimal,YES,NULL,38,19,0
+preco_total,11,decimal,YES,NULL,38,19,0
+classificacao_fiscal,12,nvarchar,YES,-1,NULL,NULL,0

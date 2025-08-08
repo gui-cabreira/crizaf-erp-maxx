@@ -1,0 +1,6 @@
+TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,CONSTRAINT_NAME,FK_NAME
+------------,----------,-----------,----------------,---------,-----------,------------------------,-----------------,-------------,---------------,-------
+CRIZAFAUX,ContadorLotes,id,1,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,ContadorLotes,grupo,2,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,ContadorLotes,ano,3,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,ContadorLotes,lote,4,bigint,YES,NULL,19,0,NULL,NULL

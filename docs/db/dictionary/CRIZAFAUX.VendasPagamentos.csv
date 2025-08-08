@@ -1,0 +1,7 @@
+TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,CONSTRAINT_NAME,FK_NAME
+------------,----------,-----------,----------------,---------,-----------,------------------------,-----------------,-------------,---------------,-------
+CRIZAFAUX,VendasPagamentos,id,1,int,YES,NULL,10,0,NULL,NULL
+CRIZAFAUX,VendasPagamentos,id_pedido,2,bigint,YES,NULL,19,0,NULL,NULL
+CRIZAFAUX,VendasPagamentos,dt_pagamento,3,datetime2,YES,NULL,NULL,NULL,NULL,NULL
+CRIZAFAUX,VendasPagamentos,ds_pagamento,4,nvarchar,YES,500,NULL,NULL,NULL,NULL
+CRIZAFAUX,VendasPagamentos,vl_pagamento,5,float,YES,NULL,53,NULL,NULL,NULL

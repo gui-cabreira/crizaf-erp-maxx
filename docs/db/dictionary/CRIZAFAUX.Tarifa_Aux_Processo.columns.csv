@@ -1,0 +1,14 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,int,YES,NULL,10,0,0
+cd_processo,2,nvarchar,YES,500,NULL,NULL,0
+cd_fase,3,bigint,YES,NULL,19,0,0
+pc_pis,4,decimal,YES,NULL,18,6,0
+pc_cofins,5,decimal,YES,NULL,18,6,0
+pc_ipi,6,decimal,YES,NULL,18,6,0
+pc_icms,7,decimal,YES,NULL,18,6,0
+pc_desp_financ,8,decimal,YES,NULL,18,6,0
+pc_frete,9,decimal,YES,NULL,18,6,0
+pc_lucro,10,decimal,YES,NULL,18,6,0
+cd_codigo_imposto,11,int,YES,NULL,10,0,0
+cd_tipo_remessa,12,int,YES,NULL,10,0,0

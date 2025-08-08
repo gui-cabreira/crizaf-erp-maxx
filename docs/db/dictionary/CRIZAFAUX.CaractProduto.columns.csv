@@ -1,0 +1,16 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+id,1,bigint,YES,NULL,19,0,0
+cd_tipo,2,bigint,YES,NULL,19,0,0
+cd_ligacao,3,bigint,YES,NULL,19,0,0
+cd_ligacao_item,4,bigint,YES,NULL,19,0,0
+cd_grupo_estoque,5,bigint,YES,NULL,19,0,0
+cd_tipo_produto,6,bigint,YES,NULL,19,0,0
+cd_produto,7,nvarchar,YES,-1,NULL,NULL,0
+vl_dim_01,8,float,YES,NULL,53,NULL,0
+vl_dim_02,9,float,YES,NULL,53,NULL,0
+vl_dim_03,10,float,YES,NULL,53,NULL,0
+cd_entidade,11,bigint,YES,NULL,19,0,0
+cd_caracteristica,12,nvarchar,YES,-1,NULL,NULL,0
+vl_decimal,13,float,YES,NULL,53,NULL,0
+nm_caracteristica,14,nvarchar,YES,-1,NULL,NULL,0

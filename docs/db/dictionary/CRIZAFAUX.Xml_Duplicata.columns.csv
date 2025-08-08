@@ -1,0 +1,8 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cd_cnpj,1,nvarchar,YES,500,NULL,NULL,0
+cd_nota_fiscal,2,int,YES,NULL,10,0,0
+nm_duplicata,3,nvarchar,YES,500,NULL,NULL,0
+dt_vencimento,4,datetime2,YES,NULL,NULL,NULL,0
+vl_duplicata,5,float,YES,NULL,53,NULL,0
+cd_serie,6,nvarchar,YES,500,NULL,NULL,0

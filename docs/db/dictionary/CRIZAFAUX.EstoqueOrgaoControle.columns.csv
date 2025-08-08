@@ -1,0 +1,11 @@
+COLUMN_NAME,ORDINAL_POSITION,DATA_TYPE,IS_NULLABLE,CHARACTER_MAXIMUM_LENGTH,NUMERIC_PRECISION,NUMERIC_SCALE,IS_PRIMARY_KEY
+-----------,----------------,---------,-----------,------------------------,-----------------,-------------,--------------
+cdEstoque,1,bigint,YES,NULL,19,0,0
+cdTipo,2,bigint,YES,NULL,19,0,0
+nmProduto,3,nvarchar,YES,-1,NULL,NULL,0
+vlD1,4,float,YES,NULL,53,NULL,0
+vlD2,5,float,YES,NULL,53,NULL,0
+vlD3,6,float,YES,NULL,53,NULL,0
+cdEntidade,7,bigint,YES,NULL,19,0,0
+cdOrgaoControle,8,bigint,YES,NULL,19,0,0
+dsComentario,9,nvarchar,YES,-1,NULL,NULL,0
