@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface INotaFiscalTipoIncidenciaImpostosFederais
+{
+	IList<MapTableNotaFiscalTipoIncidenciaImpostosFederais> ObterTodosNotaFiscalTipoIncidenciaImpostosFederais();
+
+	MapTableNotaFiscalTipoIncidenciaImpostosFederais ObterNotaFiscalTipoIncidenciaImpostosFederais(int id);
+
+	MapTableNotaFiscalTipoIncidenciaImpostosFederais ObterNotaFiscalTipoIncidenciaImpostosFederais(MapTableNotaFiscalTipoIncidenciaImpostosFederais NotaFiscalTipoIncidenciaImpostosFederais);
+
+	int InserirNotaFiscalTipoIncidenciaImpostosFederais(MapTableNotaFiscalTipoIncidenciaImpostosFederais NotaFiscalTipoIncidenciaImpostosFederais);
+
+	int AlterarNotaFiscalTipoIncidenciaImpostosFederais(MapTableNotaFiscalTipoIncidenciaImpostosFederais NotaFiscalTipoIncidenciaImpostosFederais, Hashtable camposAlterados);
+
+	int ExcluirNotaFiscalTipoIncidenciaImpostosFederais(int id);
+}

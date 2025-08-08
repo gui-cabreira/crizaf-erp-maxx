@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface IComercialFiscalClassificacaoFiscal
+{
+	IList<MapTableComercialFiscalClassificacaoFiscal> ObterTodosComercialFiscalClassificacaoFiscal();
+
+	MapTableComercialFiscalClassificacaoFiscal ObterComercialFiscalClassificacaoFiscal(int id);
+
+	MapTableComercialFiscalClassificacaoFiscal ObterComercialFiscalClassificacaoFiscal(MapTableComercialFiscalClassificacaoFiscal ComercialFiscalClassificacaoFiscal);
+
+	int InserirComercialFiscalClassificacaoFiscal(MapTableComercialFiscalClassificacaoFiscal ComercialFiscalClassificacaoFiscal);
+
+	int AlterarComercialFiscalClassificacaoFiscal(MapTableComercialFiscalClassificacaoFiscal ComercialFiscalClassificacaoFiscal, Hashtable camposAlterados);
+
+	int ExcluirComercialFiscalClassificacaoFiscal(int id);
+}

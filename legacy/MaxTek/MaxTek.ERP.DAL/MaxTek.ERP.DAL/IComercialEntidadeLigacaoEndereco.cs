@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface IComercialEntidadeLigacaoEndereco
+{
+	IList<MapTableComercialEntidadeLigacaoEndereco> ObterTodosComercialEntidadeLigacaoEndereco();
+
+	IList<MapTableComercialEntidadeLigacaoEndereco> ObterTodosComercialEntidadeLigacaoEndereco(int codigoEntidadePrincipal);
+
+	MapTableComercialEntidadeLigacaoEndereco ObterComercialEntidadeLigacaoEndereco(int codigoEntidade, int codigoEntidadeEndereco);
+
+	MapTableComercialEntidadeLigacaoEndereco ObterComercialEntidadeLigacaoEndereco(MapTableComercialEntidadeLigacaoEndereco ComercialEntidadeLigacaoEndereco);
+
+	int InserirComercialEntidadeLigacaoEndereco(MapTableComercialEntidadeLigacaoEndereco ComercialEntidadeLigacaoEndereco);
+
+	int AlterarComercialEntidadeLigacaoEndereco(MapTableComercialEntidadeLigacaoEndereco ComercialEntidadeLigacaoEndereco, Hashtable camposAlterados);
+
+	int ExcluirComercialEntidadeLigacaoEndereco(int codigoEntidade, int codigoEntidadeEndereco);
+
+	int ExcluirTodosComercialEntidadeLigacaoEndereco(int codigoEntidade);
+}

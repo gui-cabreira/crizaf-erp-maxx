@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface ITecnicoEngenhariaProcessoOperacaoRevisao
+{
+	IList<MapTableTecnicoEngenhariaProcessoOperacaoRevisao> ObterTodosTecnicoEngenhariaProcessoOperacaoRevisao();
+
+	IList<MapTableTecnicoEngenhariaProcessoOperacaoRevisao> ObterTodosTecnicoEngenhariaProcessoOperacaoRevisao(int idOperacao);
+
+	MapTableTecnicoEngenhariaProcessoOperacaoRevisao ObterTecnicoEngenhariaProcessoOperacaoRevisao(int id);
+
+	MapTableTecnicoEngenhariaProcessoOperacaoRevisao ObterTecnicoEngenhariaProcessoOperacaoRevisao(MapTableTecnicoEngenhariaProcessoOperacaoRevisao TecnicoEngenhariaProcessoOperacaoRevisao);
+
+	int InserirTecnicoEngenhariaProcessoOperacaoRevisao(MapTableTecnicoEngenhariaProcessoOperacaoRevisao TecnicoEngenhariaProcessoOperacaoRevisao);
+
+	int AlterarTecnicoEngenhariaProcessoOperacaoRevisao(MapTableTecnicoEngenhariaProcessoOperacaoRevisao TecnicoEngenhariaProcessoOperacaoRevisao, Hashtable camposAlterados);
+
+	int ExcluirTecnicoEngenhariaProcessoOperacaoRevisao(int id);
+}

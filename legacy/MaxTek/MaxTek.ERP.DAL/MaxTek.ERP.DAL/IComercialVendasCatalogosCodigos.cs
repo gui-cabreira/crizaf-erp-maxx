@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface IComercialVendasCatalogosCodigos
+{
+	IList<MapTableComercialVendasCatalogosCodigos> ObterTodosComercialVendasCatalogosCodigos();
+
+	IList<MapTableComercialVendasCatalogosCodigos> ObterTodosComercialVendasCatalogosCodigos(int codigoCatalogo);
+
+	MapTableComercialVendasCatalogosCodigos ObterComercialVendasCatalogosCodigos(int id);
+
+	MapTableComercialVendasCatalogosCodigos ObterComercialVendasCatalogosCodigos(MapTableComercialVendasCatalogosCodigos ComercialVendasCatalogosCodigos);
+
+	int InserirComercialVendasCatalogosCodigos(MapTableComercialVendasCatalogosCodigos ComercialVendasCatalogosCodigos);
+
+	int AlterarComercialVendasCatalogosCodigos(MapTableComercialVendasCatalogosCodigos ComercialVendasCatalogosCodigos, Hashtable camposAlterados);
+
+	int ExcluirComercialVendasCatalogosCodigos(int id);
+}

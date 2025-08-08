@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface IComercialVendasPedidosItensCadencia
+{
+	IList<MapTableComercialVendasPedidosItensCadencia> ObterTodosComercialVendasPedidosItensCadencia();
+
+	IList<MapTableComercialVendasPedidosItensCadencia> ObterTodosComercialVendasPedidosItensCadencia(int codigoPedidoItem);
+
+	MapTableComercialVendasPedidosItensCadencia ObterComercialVendasPedidosItensCadencia(int id);
+
+	MapTableComercialVendasPedidosItensCadencia ObterComercialVendasPedidosItensCadencia(MapTableComercialVendasPedidosItensCadencia ComercialVendasPedidosItensCadencia);
+
+	int InserirComercialVendasPedidosItensCadencia(MapTableComercialVendasPedidosItensCadencia ComercialVendasPedidosItensCadencia);
+
+	int AlterarComercialVendasPedidosItensCadencia(MapTableComercialVendasPedidosItensCadencia ComercialVendasPedidosItensCadencia, Hashtable camposAlterados);
+
+	int ExcluirComercialVendasPedidosItensCadencia(int id);
+}

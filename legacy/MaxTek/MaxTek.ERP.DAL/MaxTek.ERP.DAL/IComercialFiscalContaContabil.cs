@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface IComercialFiscalContaContabil
+{
+	IList<MapTableComercialFiscalContaContabil> ObterTodosComercialFiscalContaContabil();
+
+	MapTableComercialFiscalContaContabil ObterComercialFiscalContaContabil(int id);
+
+	MapTableComercialFiscalContaContabil ObterComercialFiscalContaContabil(MapTableComercialFiscalContaContabil ComercialFiscalContaContabil);
+
+	int InserirComercialFiscalContaContabil(MapTableComercialFiscalContaContabil ComercialFiscalContaContabil);
+
+	int AlterarComercialFiscalContaContabil(MapTableComercialFiscalContaContabil ComercialFiscalContaContabil, Hashtable camposAlterados);
+
+	int ExcluirComercialFiscalContaContabil(int id);
+}

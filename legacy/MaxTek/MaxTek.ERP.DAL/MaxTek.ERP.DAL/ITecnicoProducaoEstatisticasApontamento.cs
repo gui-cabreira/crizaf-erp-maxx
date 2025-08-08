@@ -1,0 +1,26 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface ITecnicoProducaoEstatisticasApontamento
+{
+	IList<MapTableTecnicoProducaoEstatisticasApontamento> ObterTodosTecnicoProducaoEstatisticasApontamento();
+
+	IList<MapTableTecnicoProducaoEstatisticasApontamento> ObterTodosTecnicoProducaoEstatisticasApontamento(DateTime dataInicio, DateTime dataFim);
+
+	MapTableTecnicoProducaoEstatisticasApontamento ObterTecnicoProducaoEstatisticasApontamento(int id);
+
+	MapTableTecnicoProducaoEstatisticasApontamento ObterTecnicoProducaoEstatisticasApontamento(MapTableTecnicoProducaoEstatisticasApontamento TecnicoProducaoEstatisticasApontamento);
+
+	int InserirTecnicoProducaoEstatisticasApontamento(MapTableTecnicoProducaoEstatisticasApontamento TecnicoProducaoEstatisticasApontamento);
+
+	int AlterarTecnicoProducaoEstatisticasApontamento(MapTableTecnicoProducaoEstatisticasApontamento TecnicoProducaoEstatisticasApontamento, Hashtable camposAlterados);
+
+	int ExcluirTecnicoProducaoEstatisticasApontamento(int id);
+
+	IList<MapTableTecnicoProducaoEstatisticasApontamento> ObterTodosTecnicoProducaoEstatisticaOperacao(DateTime dataInicio, DateTime dataFim);
+
+	IList<MapTableTecnicoProducaoEstatisticasApontamento> ObterTodosTecnicoProducaoEstatisticaOperacaoOperador(DateTime dataInicio, DateTime dataFim);
+}

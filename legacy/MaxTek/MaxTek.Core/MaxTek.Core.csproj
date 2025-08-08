@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>MaxTek.Core</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="MaxTek.Core.dll.licenses" />
+    <EmbeddedResource Include="MaxTek.Core.dll.licenses" LogicalName="MaxTek.Core.dll.licenses" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="DevExpress.Utils.v19.2" />
+    <Reference Include="DevExpress.XtraRichEdit.v19.2" />
+    <Reference Include="DevExpress.Office.v19.2.Core" />
+    <Reference Include="DevExpress.RichEdit.v19.2.Core" />
+    <Reference Include="GuerrillaNtp" />
+    <Reference Include="DevExpress.XtraDialogs.v19.2" />
+    <Reference Include="DevExpress.XtraSpreadsheet.v19.2" />
+    <Reference Include="DevExpress.Spreadsheet.v19.2.Core" />
+    <Reference Include="PdfSharp" />
+    <Reference Include="DevExpress.XtraBars.v19.2" />
+    <Reference Include="DevExpress.XtraEditors.v19.2" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="DevExpress.Data.v19.2" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+</Project>

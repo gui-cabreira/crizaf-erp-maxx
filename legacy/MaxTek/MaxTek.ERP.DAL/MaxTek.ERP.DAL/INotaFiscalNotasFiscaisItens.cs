@@ -1,0 +1,44 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface INotaFiscalNotasFiscaisItens
+{
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterTodosNotaFiscalNotasFiscaisItens();
+
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterTodosNotaFiscalNotasFiscaisItens(DateTime DataPeriodoInicial, DateTime DataPeriodoFinal);
+
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterNotaFiscalNotasFiscaisItens(int codigoEmpresa, int codigoNotaFiscal, int codigoSerieNotaFiscal);
+
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterNotaFiscalNotasFiscaisItens(MapTableNotaFiscalNotasFiscaisItens NotaFiscalNotasFiscaisItens);
+
+	MapTableNotaFiscalNotasFiscaisItens ObterNotaFiscalNotasFiscaisItens(int codigoEmpresa, int codigoNotaFiscal, int ordem, int codigoSerieNotaFiscal);
+
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterNotaFiscalNotasFiscaisItensFE(int codigoFichaExpedicao);
+
+	MapTableNotaFiscalNotasFiscaisItens ObterNotaFiscalNotasFiscaisItensFE(int codigoFichaExpedicao, int codigoFichaExpedicaoItem);
+
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterNotaFiscalNotasFiscaisItensPedidoCompra(int codigoPedidoCompra);
+
+	MapTableNotaFiscalNotasFiscaisItens ObterNotaFiscalNotasFiscaisItensPedidoCompra(int codigoPedidoCompra, int codigoPedidoCompraItem);
+
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterNotaFiscalNotasFiscaisItensPedidoVenda(int codigoPedidoVenda);
+
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterNotaFiscalNotasFiscaisItensPedidoVenda(int codigoPedidoVenda, int codigoPedidoVendaItem);
+
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterNotaFiscalNotasFiscaisItensPedidoVenda(int codigoPedidoVenda, int codigoPedidoVendaItem, int notaCorte);
+
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterNotaFiscalNotasFiscaisItensDevolucaoMaterialCliente(int codigoRecebimentoMaterialCliente);
+
+	IList<MapTableNotaFiscalNotasFiscaisItens> ObterNotaFiscalNotasFiscaisItensDevolucaoMaterialCliente(string codigoMaterialCliente);
+
+	int InserirNotaFiscalNotasFiscaisItens(MapTableNotaFiscalNotasFiscaisItens NotaFiscalNotasFiscaisItens);
+
+	int AlterarNotaFiscalNotasFiscaisItens(MapTableNotaFiscalNotasFiscaisItens NotaFiscalNotasFiscaisItens, Hashtable camposAlterados);
+
+	int ExcluirNotaFiscalNotasFiscaisItens(int codigoEmpresa, int codigoNotaFiscal, int codigoSerieNotaFiscal);
+
+	int ExcluirNotaFiscalNotasFiscaisItens(int codigoEmpresa, int codigoNotaFiscal, int codigoSerieNotaFiscal, int ordem);
+}

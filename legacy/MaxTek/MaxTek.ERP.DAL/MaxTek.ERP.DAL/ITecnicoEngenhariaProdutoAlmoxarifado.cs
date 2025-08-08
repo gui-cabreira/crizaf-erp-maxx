@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface ITecnicoEngenhariaProdutoAlmoxarifado
+{
+	IList<MapTableTecnicoEngenhariaProdutoAlmoxarifado> ObterTodosTecnicoEngenhariaProdutoAlmoxarifado();
+
+	MapTableTecnicoEngenhariaProdutoAlmoxarifado ObterTecnicoEngenhariaProdutoAlmoxarifado(int id);
+
+	MapTableTecnicoEngenhariaProdutoAlmoxarifado ObterTecnicoEngenhariaProdutoAlmoxarifado(MapTableTecnicoEngenhariaProdutoAlmoxarifado TecnicoEngenhariaProdutoAlmoxarifado);
+
+	int InserirTecnicoEngenhariaProdutoAlmoxarifado(MapTableTecnicoEngenhariaProdutoAlmoxarifado TecnicoEngenhariaProdutoAlmoxarifado);
+
+	int AlterarTecnicoEngenhariaProdutoAlmoxarifado(MapTableTecnicoEngenhariaProdutoAlmoxarifado TecnicoEngenhariaProdutoAlmoxarifado, Hashtable camposAlterados);
+
+	int ExcluirTecnicoEngenhariaProdutoAlmoxarifado(int id);
+}

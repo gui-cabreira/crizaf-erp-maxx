@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface IComercialEntidadeEspecialidade
+{
+	IList<MapTableComercialEntidadeEspecialidade> ObterTodosComercialEntidadeEspecialidade();
+
+	MapTableComercialEntidadeEspecialidade ObterComercialEntidadeEspecialidade(int codigo);
+
+	MapTableComercialEntidadeEspecialidade ObterComercialEntidadeEspecialidade(MapTableComercialEntidadeEspecialidade ComercialEntidadeEspecialidade);
+
+	int InserirComercialEntidadeEspecialidade(MapTableComercialEntidadeEspecialidade ComercialEntidadeEspecialidade);
+
+	int AlterarComercialEntidadeEspecialidade(MapTableComercialEntidadeEspecialidade ComercialEntidadeEspecialidade, Hashtable camposAlterados);
+
+	int ExcluirComercialEntidadeEspecialidade(int codigo);
+}

@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface INotaFiscalModalidadeBaseCalculoICMSST
+{
+	IList<MapTableNotaFiscalModalidadeBaseCalculo> ObterTodosNotaFiscalModalidadeBaseCalculoICMSST();
+
+	MapTableNotaFiscalModalidadeBaseCalculo ObterNotaFiscalModalidadeBaseCalculoICMSST(int codigoModalidade);
+
+	MapTableNotaFiscalModalidadeBaseCalculo ObterNotaFiscalModalidadeBaseCalculoICMSST(MapTableNotaFiscalModalidadeBaseCalculo NotaFiscalModalidadeBaseCalculo);
+
+	int InserirNotaFiscalModalidadeBaseCalculoICMSST(MapTableNotaFiscalModalidadeBaseCalculo NotaFiscalModalidadeBaseCalculoICMSST);
+
+	int AlterarNotaFiscalModalidadeBaseCalculoICMSST(MapTableNotaFiscalModalidadeBaseCalculo NotaFiscalModalidadeBaseCalculoICMSST, Hashtable camposAlterados);
+
+	int ExcluirNotaFiscalModalidadeBaseCalculoICMSST(int codigoModalidade);
+}

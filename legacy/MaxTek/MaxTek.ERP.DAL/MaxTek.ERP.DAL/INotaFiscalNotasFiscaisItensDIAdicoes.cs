@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface INotaFiscalNotasFiscaisItensDIAdicoes
+{
+	IList<MapTableNotaFiscalNotasFiscaisItensDIAdicoes> ObterTodosNotaFiscalNotasFiscaisItensDIAdicoes();
+
+	IList<MapTableNotaFiscalNotasFiscaisItensDIAdicoes> ObterTodosNotaFiscalNotasFiscaisItensDIAdicoes(int codigoEmpresa, int codigoSerieNotaFiscal, int codigoNotaFiscal, int ordem, string numeroDI);
+
+	MapTableNotaFiscalNotasFiscaisItensDIAdicoes ObterNotaFiscalNotasFiscaisItensDIAdicoes(int codigoEmpresa, int codigoSerieNotaFiscal, int codigoNotaFiscal, int ordem, string numeroDI, int numeroAdicao);
+
+	MapTableNotaFiscalNotasFiscaisItensDIAdicoes ObterNotaFiscalNotasFiscaisItensDIAdicoes(MapTableNotaFiscalNotasFiscaisItensDIAdicoes NotaFiscalNotasFiscaisItensDIAdicoes);
+
+	int InserirNotaFiscalNotasFiscaisItensDIAdicoes(MapTableNotaFiscalNotasFiscaisItensDIAdicoes NotaFiscalNotasFiscaisItensDIAdicoes);
+
+	int AlterarNotaFiscalNotasFiscaisItensDIAdicoes(MapTableNotaFiscalNotasFiscaisItensDIAdicoes NotaFiscalNotasFiscaisItensDIAdicoes, Hashtable camposAlterados);
+
+	int ExcluirNotaFiscalNotasFiscaisItensDIAdicoes(int codigoEmpresa, int codigoSerieNotaFiscal, int codigoNotaFiscal, int ordem, string numeroDI, int numeroAdicao);
+
+	int ExcluirNotaFiscalNotasFiscaisItensDIAdicoes(int codigoEmpresa, int codigoSerieNotaFiscal, int codigoNotaFiscal);
+}

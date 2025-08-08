@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface ITecnicoEngenhariaProcessoMateria
+{
+	IList<MapTableTecnicoEngenhariaProcessoMateria> ObterTodosTecnicoEngenhariaProcessoMateria();
+
+	IList<MapTableTecnicoEngenhariaProcessoMateria> ObterTodosTecnicoEngenhariaProcessoMateria(int idProcesso);
+
+	MapTableTecnicoEngenhariaProcessoMateria ObterTecnicoEngenhariaProcessoMateria(int id);
+
+	MapTableTecnicoEngenhariaProcessoMateria ObterTecnicoEngenhariaProcessoMateria(MapTableTecnicoEngenhariaProcessoMateria TecnicoEngenhariaProcessoMateria);
+
+	int InserirTecnicoEngenhariaProcessoMateria(MapTableTecnicoEngenhariaProcessoMateria TecnicoEngenhariaProcessoMateria);
+
+	int AlterarTecnicoEngenhariaProcessoMateria(MapTableTecnicoEngenhariaProcessoMateria TecnicoEngenhariaProcessoMateria, Hashtable camposAlterados);
+
+	int ExcluirTecnicoEngenhariaProcessoMateria(int id);
+}

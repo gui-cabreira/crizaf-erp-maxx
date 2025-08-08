@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface ITecnicoEngenhariaProdutoFamilia
+{
+	IList<MapTableTecnicoEngenhariaProdutoFamilia> ObterTodosTecnicoEngenhariaProdutoFamilia();
+
+	MapTableTecnicoEngenhariaProdutoFamilia ObterTecnicoEngenhariaProdutoFamilia(int id);
+
+	MapTableTecnicoEngenhariaProdutoFamilia ObterTecnicoEngenhariaProdutoFamilia(MapTableTecnicoEngenhariaProdutoFamilia TecnicoEngenhariaProdutoFamilia);
+
+	int InserirTecnicoEngenhariaProdutoFamilia(MapTableTecnicoEngenhariaProdutoFamilia TecnicoEngenhariaProdutoFamilia);
+
+	int AlterarTecnicoEngenhariaProdutoFamilia(MapTableTecnicoEngenhariaProdutoFamilia TecnicoEngenhariaProdutoFamilia, Hashtable camposAlterados);
+
+	int ExcluirTecnicoEngenhariaProdutoFamilia(int id);
+}

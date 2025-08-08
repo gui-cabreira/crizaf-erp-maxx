@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface IComercialFinanceiroCondicaoPagamento
+{
+	IList<MapTableComercialFinanceiroCondicaoPagamento> ObterTodosComercialFinanceiroCondicaoPagamento();
+
+	MapTableComercialFinanceiroCondicaoPagamento ObterComercialFinanceiroCondicaoPagamento(int codigo);
+
+	MapTableComercialFinanceiroCondicaoPagamento ObterComercialFinanceiroCondicaoPagamento(MapTableComercialFinanceiroCondicaoPagamento ComercialFinanceiroCondicaoPagamento);
+
+	int InserirComercialFinanceiroCondicaoPagamento(MapTableComercialFinanceiroCondicaoPagamento ComercialFinanceiroCondicaoPagamento);
+
+	int AlterarComercialFinanceiroCondicaoPagamento(MapTableComercialFinanceiroCondicaoPagamento ComercialFinanceiroCondicaoPagamento, Hashtable camposAlterados);
+
+	int ExcluirComercialFinanceiroCondicaoPagamento(int codigo);
+}

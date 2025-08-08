@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>MaxTek.ERP.BLL</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="MaxTek.ERP.BLL.dll.licenses" />
+    <EmbeddedResource Include="MaxTek.ERP.BLL.dll.licenses" LogicalName="MaxTek.ERP.BLL.dll.licenses" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.XtraReports.v19.2" />
+    <Reference Include="DevExpress.Printing.v19.2.Core" />
+    <Reference Include="MaxTek.Core">
+      <HintPath>referencia/MaxTek/MaxUpdate/MaxTek.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxTek.ERP.DAL">
+      <HintPath>referencia/MaxTek/MaxUpdate/MaxTek.ERP.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxTek.GPS.BLL">
+      <HintPath>referencia/MaxTek/MaxUpdate/MaxTek.GPS.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="MaxTek.MaxEditors">
+      <HintPath>referencia/MaxTek/MaxUpdate/MaxTek.MaxEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v19.2" />
+    <Reference Include="DevExpress.DataAccess.v19.2" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="DevExpress.Data.v19.2" />
+    <Reference Include="DevExpress.Utils.v19.2" />
+    <Reference Include="DevExpress.XtraPrinting.v19.2" />
+  </ItemGroup>
+</Project>

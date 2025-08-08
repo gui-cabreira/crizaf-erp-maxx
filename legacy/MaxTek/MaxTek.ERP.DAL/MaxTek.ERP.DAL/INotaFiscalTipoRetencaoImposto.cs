@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface INotaFiscalTipoRetencaoImposto
+{
+	IList<MapTableNotaFiscalTipoRetencaoImposto> ObterTodosNotaFiscalTipoRetencaoImposto();
+
+	MapTableNotaFiscalTipoRetencaoImposto ObterNotaFiscalTipoRetencaoImposto(int codigoRetencao);
+
+	MapTableNotaFiscalTipoRetencaoImposto ObterNotaFiscalTipoRetencaoImposto(MapTableNotaFiscalTipoRetencaoImposto NotaFiscalTipoRetencaoImposto);
+
+	int InserirNotaFiscalTipoRetencaoImposto(MapTableNotaFiscalTipoRetencaoImposto NotaFiscalTipoRetencaoImposto);
+
+	int AlterarNotaFiscalTipoRetencaoImposto(MapTableNotaFiscalTipoRetencaoImposto NotaFiscalTipoRetencaoImposto, Hashtable camposAlterados);
+
+	int ExcluirNotaFiscalTipoRetencaoImposto(int codigoRetencao);
+}

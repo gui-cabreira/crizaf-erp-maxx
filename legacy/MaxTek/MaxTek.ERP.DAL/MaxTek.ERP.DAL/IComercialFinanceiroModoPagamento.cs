@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+
+namespace MaxTek.ERP.DAL;
+
+public interface IComercialFinanceiroModoPagamento
+{
+	IList<MapTableComercialFinanceiroModoPagamento> ObterTodosComercialFinanceiroModoPagamento();
+
+	MapTableComercialFinanceiroModoPagamento ObterComercialFinanceiroModoPagamento(int codigo);
+
+	MapTableComercialFinanceiroModoPagamento ObterComercialFinanceiroModoPagamento(MapTableComercialFinanceiroModoPagamento ComercialFinanceiroModoPagamento);
+
+	int InserirComercialFinanceiroModoPagamento(MapTableComercialFinanceiroModoPagamento ComercialFinanceiroModoPagamento);
+
+	int AlterarComercialFinanceiroModoPagamento(MapTableComercialFinanceiroModoPagamento ComercialFinanceiroModoPagamento, Hashtable camposAlterados);
+
+	int ExcluirComercialFinanceiroModoPagamento(int codigo);
+}
